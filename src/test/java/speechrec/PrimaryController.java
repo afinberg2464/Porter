@@ -1,4 +1,4 @@
-package com.andrewfinberg;
+package com.speechrec;
 
 import java.io.IOException;
 
