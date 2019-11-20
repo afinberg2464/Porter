@@ -11,13 +11,13 @@ import javafx.fxml.FXML;
 public class PrimaryController extends ImageDetection {
 
     /**
-     * This method should call the DetectFace method,
-     * fire up the camera, etc.
+     * This method should call the DetectFace method
+     * and switch to the secondary scene
      */
     @FXML
-    private void ringBell() {
+    private void ringBell() throws IOException {
         DetectFace();
-    }
+        switchToSecondary();
 
     /**
      * The quitProgram method should quit the program
