@@ -10,6 +10,10 @@ import javafx.fxml.FXML;
  */
 public class PrimaryController extends ImageDetection {
 
+    /**
+     * This method should call the DetectFace method,
+     * fire up the camera, etc.
+     */
     @FXML
     private void ringBell() {
         DetectFace();
